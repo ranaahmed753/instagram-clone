@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+  height: 100%;
+}
+
+.app__parent {
+  display: flex;
+}
+
+.app__left {
+  display: flex;
+  flex-direction: column;
+}
+
+.app__right {
+  margin-left: 100px;
+  position: sticky;
+  top: 30px;
+}

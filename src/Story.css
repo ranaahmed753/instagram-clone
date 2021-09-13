@@ -1,0 +1,33 @@
+.story {
+  background-color: white;
+  max-width: 480px;
+  border: 1px solid lightgray;
+  margin-bottom: 45px;
+  margin-top: 20px;
+  height: 120px;
+  align-items: center;
+  display: flex;
+  margin-left: 300px;
+  padding: 10px;
+}
+
+.story__row {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  align-items: center;
+}
+
+.story__avatar {
+  border: 2px solid #e3455f;
+  cursor: pointer;
+}
+
+.story__name {
+  font-weight: 200;
+  font-size: small;
+  text-overflow: inherit;
+  text-justify: auto;
+  font-size: 12px;
+  cursor: pointer;
+}

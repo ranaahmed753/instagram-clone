@@ -1,0 +1,58 @@
+.sidebar {
+  display: flex;
+  flex: 0.33;
+  flex-direction: column;
+  margin-top: 20px;
+  position: fixed;
+}
+
+.sidebar__option > h4 {
+  color: gray;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.sidebar__top {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar__middle {
+  display: flex;
+  margin-top: 30px;
+}
+
+.sidebar__middle > h3 {
+  color: gray;
+  font-size: 15px;
+}
+
+.sidebar__middle > h4 {
+  color: gray;
+  margin-left: 138px;
+  font-size: 15px;
+}
+
+.switch {
+  margin-left: 110px;
+  color: #0f9bf7;
+  cursor: pointer;
+  font-size: small;
+  font-weight: 400;
+}
+
+.sidebar__bottom {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarBottom__last {
+  margin-top: 20px;
+}
+
+.sidebarBottom__last > h2 {
+  font-size: 13px;
+  font-weight: 400;
+  color: lightgray;
+}
